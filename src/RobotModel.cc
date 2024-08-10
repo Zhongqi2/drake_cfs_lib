@@ -9,9 +9,9 @@ RobotModel::RobotModel(bool show_robot = false)
     drake::multibody::Parser parser(plant);
 
     // add robot environment
-    parser.package_map().Add("drake_project", "/home/zhongqi/Documents/workspace/drake-external-examples/drake_cfs_lib");    
+    parser.package_map().Add("drake_project", "/home/zhongqi/Documents/workspace/drake_cfs_lib");    
     const std::string object_model_url =
-    "package://drake_project/script/benchmark_description/robot_environment.dmd.yaml";
+    "package://drake_project/script/environment_description/robot_environment.dmd.yaml";
     parser.AddModelsFromUrl(object_model_url);
     plant->Finalize();
 

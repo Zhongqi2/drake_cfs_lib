@@ -4,7 +4,7 @@
     <link name="base_link">
         <visual>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/gp12_base_link.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/gp12_base_link.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -12,14 +12,14 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/gp12_base_link.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/gp12_base_link.obj"/>
             </geometry>
         </collision>
     </link>
     <link name="link_1_s">
         <visual>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/gp12_link_1_s.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/gp12_link_1_s.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -27,14 +27,14 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/gp12_link_1_s.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/gp12_link_1_s.obj"/>
             </geometry>
         </collision>
     </link>
     <link name="link_2_l">
         <visual>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/gp12_link_2_l.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/gp12_link_2_l.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -42,14 +42,14 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/gp12_link_2_l.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/gp12_link_2_l.obj"/>
             </geometry>
         </collision>
     </link>
     <link name="link_3_u">
         <visual>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/gp12_link_3_u.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/gp12_link_3_u.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -57,14 +57,14 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/gp12_link_3_u.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/gp12_link_3_u.obj"/>
             </geometry>
         </collision>
     </link>
     <link name="link_4_r">
         <visual>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/gp12_link_4_r.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/gp12_link_4_r.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -72,14 +72,14 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/gp12_link_4_r.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/gp12_link_4_r.obj"/>
             </geometry>
         </collision>
     </link>
     <link name="link_5_b">
         <visual>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/gp12_link_5_b.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/gp12_link_5_b.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -87,14 +87,14 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/gp12_link_5_b.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/gp12_link_5_b.obj"/>
             </geometry>
         </collision>
     </link>
     <link name="link_6_t">
         <visual>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/gp12_link_6_t.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/gp12_link_6_t.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -102,13 +102,13 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/gp12_link_6_t.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/gp12_link_6_t.obj"/>
             </geometry>
         </collision>
         <visual>
             <origin rpy="-1.57 0 -1.57" xyz="0.0 0.0 -0.06"/>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/visual/suction_gripper.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/visual/suction_gripper.obj"/>
             </geometry>
             <material name="Endeffector_material">
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
@@ -117,7 +117,7 @@
         <collision>
             <origin rpy="-1.57 0 -1.57" xyz="0. 0 -0.06"/>
             <geometry>
-                <mesh filename="/home/zhongqi/Documents/workspace/Task_Motion_Planning/GCS_planning/models/benchmark_description/gp12/meshes/collision/suction_gripper.obj"/>
+                <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp12/meshes/collision/suction_gripper.obj"/>
             </geometry>
         </collision>
     </link>
