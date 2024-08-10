@@ -45,6 +45,7 @@ class RobotModel{
       std::unique_ptr<drake::systems::Diagram<double>> diagram;
       drake::multibody::MultibodyPlant<double>* plant{};
       drake::geometry::SceneGraph<double>* scene_graph{};
+      std::unique_ptr<drake::systems::Context<double>> diagram_context;
 };
 
 #endif  // __ROBOT_MODEL_H_

@@ -1,5 +1,6 @@
 #include <cmath>
-
+#include <iostream>
+#include <chrono>
 #include "RobotModel.h"
 
 RobotModel::RobotModel(bool show_robot = false)
@@ -26,6 +27,7 @@ RobotModel::RobotModel(bool show_robot = false)
     // build diagram
     diagram = builder.Build();
 
+    diagram_context = diagram->CreateDefaultContext();  
     if (show_robot == true)
     {
         auto diagram_context = diagram->CreateDefaultContext();
@@ -52,7 +54,6 @@ SDF RobotModel::cal_minSDF_and_gradient(const Eigen::VectorXd& joint_position)
     double min_dist = 99999;
 
     // get system contex
-    auto diagram_context = diagram->CreateDefaultContext();
     drake::systems::Context<double>& plant_context = diagram->GetMutableSubsystemContext(*plant, diagram_context.get());
     drake::systems::Context<double>& context_scene_graph = diagram->GetMutableSubsystemContext(*scene_graph, diagram_context.get());
 
@@ -67,10 +68,11 @@ SDF RobotModel::cal_minSDF_and_gradient(const Eigen::VectorXd& joint_position)
 
     // set robot position
     plant->SetPositions(&plant_context, joint_position);
-    
+
     //calculate sign distance function
     drake::geometry::SignedDistancePair<double> min_signed_distance_pair;
     const std::set<std::pair<drake::geometry::GeometryId, drake::geometry::GeometryId>>collision_candidate_pairs = query_object.inspector().GetCollisionCandidates();
+
     for (const auto& geometry_pair:collision_candidate_pairs) 
     {
         drake::geometry::SignedDistancePair<double> signed_distance_pair = query_object.ComputeSignedDistancePairClosestPoints(geometry_pair.first, geometry_pair.second);
@@ -80,7 +82,6 @@ SDF RobotModel::cal_minSDF_and_gradient(const Eigen::VectorXd& joint_position)
           min_dist = signed_distance_pair.distance;
         }
     }
-
     bool verbose = false;
     if (verbose == true)
     {
