@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/drake_cfs_lib.dir/main.cc.o"
-  "CMakeFiles/drake_cfs_lib.dir/main.cc.o.d"
-  "CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o"
-  "CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o.d"
+  "CMakeFiles/drake_cfs_lib.dir/main.cpp.o"
+  "CMakeFiles/drake_cfs_lib.dir/main.cpp.o.d"
+  "CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o"
+  "CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o.d"
   "drake_cfs_lib"
   "drake_cfs_lib.pdb"
 )

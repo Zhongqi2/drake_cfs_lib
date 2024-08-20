@@ -3,7 +3,7 @@ project(drake_cmake_installed)
 
 find_package(drake CONFIG REQUIRED)
 
-add_executable(drake_cfs_lib src/RobotModel.cc main.cc)
+add_executable(drake_cfs_lib src/RobotModel.cpp main.cpp)
 target_link_libraries(drake_cfs_lib drake::drake)
 
 set(CMAKE_CXX_EXTENSIONS OFF)

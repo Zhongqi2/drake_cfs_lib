@@ -57,7 +57,7 @@ SDF RobotModel::cal_minSDF_and_gradient(const Eigen::VectorXd& joint_position)
     drake::systems::Context<double>& plant_context = diagram->GetMutableSubsystemContext(*plant, diagram_context.get());
     drake::systems::Context<double>& context_scene_graph = diagram->GetMutableSubsystemContext(*scene_graph, diagram_context.get());
 
-    // if you need filter collision pair
+    // if you need filter collision pair:
     // drake::geometry::CollisionFilterManager copy_filter(scene_graph.collision_filter_manager());
     // copy_filter = scene_graph.collision_filter_manager(context_scene_graph.get());
 

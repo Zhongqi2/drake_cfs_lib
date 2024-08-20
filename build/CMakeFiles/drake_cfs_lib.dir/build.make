@@ -69,44 +69,44 @@ include CMakeFiles/drake_cfs_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/drake_cfs_lib.dir/flags.make
 
-CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o: CMakeFiles/drake_cfs_lib.dir/flags.make
-CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o: ../src/RobotModel.cc
-CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o: CMakeFiles/drake_cfs_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o -MF CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o.d -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cc
+CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: CMakeFiles/drake_cfs_lib.dir/flags.make
+CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: ../src/RobotModel.cpp
+CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: CMakeFiles/drake_cfs_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -MF CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o.d -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp
 
-CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cc > CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.i
+CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp > CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i
 
-CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cc -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.s
+CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s
 
-CMakeFiles/drake_cfs_lib.dir/main.cc.o: CMakeFiles/drake_cfs_lib.dir/flags.make
-CMakeFiles/drake_cfs_lib.dir/main.cc.o: ../main.cc
-CMakeFiles/drake_cfs_lib.dir/main.cc.o: CMakeFiles/drake_cfs_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drake_cfs_lib.dir/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/main.cc.o -MF CMakeFiles/drake_cfs_lib.dir/main.cc.o.d -o CMakeFiles/drake_cfs_lib.dir/main.cc.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cc
+CMakeFiles/drake_cfs_lib.dir/main.cpp.o: CMakeFiles/drake_cfs_lib.dir/flags.make
+CMakeFiles/drake_cfs_lib.dir/main.cpp.o: ../main.cpp
+CMakeFiles/drake_cfs_lib.dir/main.cpp.o: CMakeFiles/drake_cfs_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drake_cfs_lib.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/main.cpp.o -MF CMakeFiles/drake_cfs_lib.dir/main.cpp.o.d -o CMakeFiles/drake_cfs_lib.dir/main.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp
 
-CMakeFiles/drake_cfs_lib.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drake_cfs_lib.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cc > CMakeFiles/drake_cfs_lib.dir/main.cc.i
+CMakeFiles/drake_cfs_lib.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drake_cfs_lib.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp > CMakeFiles/drake_cfs_lib.dir/main.cpp.i
 
-CMakeFiles/drake_cfs_lib.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drake_cfs_lib.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cc -o CMakeFiles/drake_cfs_lib.dir/main.cc.s
+CMakeFiles/drake_cfs_lib.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drake_cfs_lib.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp -o CMakeFiles/drake_cfs_lib.dir/main.cpp.s
 
 # Object files for target drake_cfs_lib
 drake_cfs_lib_OBJECTS = \
-"CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o" \
-"CMakeFiles/drake_cfs_lib.dir/main.cc.o"
+"CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o" \
+"CMakeFiles/drake_cfs_lib.dir/main.cpp.o"
 
 # External object files for target drake_cfs_lib
 drake_cfs_lib_EXTERNAL_OBJECTS =
 
-drake_cfs_lib: CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o
-drake_cfs_lib: CMakeFiles/drake_cfs_lib.dir/main.cc.o
+drake_cfs_lib: CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o
+drake_cfs_lib: CMakeFiles/drake_cfs_lib.dir/main.cpp.o
 drake_cfs_lib: CMakeFiles/drake_cfs_lib.dir/build.make
 drake_cfs_lib: /home/zhongqi/Documents/workspace/drake_env_1.28/lib/libdrake.so
 drake_cfs_lib: /home/zhongqi/Documents/workspace/drake_env_1.28/lib/libdrake_marker.so

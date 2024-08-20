@@ -6,5 +6,5 @@ CXX_DEFINES = -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DHAVE_SPDLOG -DSPDLOG_COMPILED_L
 
 CXX_INCLUDES = -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include/drake_lcmtypes -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include/lcm -isystem /usr/include/eigen3 -isystem /home/zhongqi/miniconda3/include
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -g -std=gnu++20
 

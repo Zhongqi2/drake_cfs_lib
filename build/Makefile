@@ -129,53 +129,53 @@ drake_cfs_lib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/build
 .PHONY : drake_cfs_lib/fast
 
-main.o: main.cc.o
+main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
-main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cc.o
-.PHONY : main.cc.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main.i: main.cc.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cc.i
-.PHONY : main.cc.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.cc.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cc.s
-.PHONY : main.cc.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-src/RobotModel.o: src/RobotModel.cc.o
+src/RobotModel.o: src/RobotModel.cpp.o
 .PHONY : src/RobotModel.o
 
 # target to build an object file
-src/RobotModel.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.o
-.PHONY : src/RobotModel.cc.o
+src/RobotModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o
+.PHONY : src/RobotModel.cpp.o
 
-src/RobotModel.i: src/RobotModel.cc.i
+src/RobotModel.i: src/RobotModel.cpp.i
 .PHONY : src/RobotModel.i
 
 # target to preprocess a source file
-src/RobotModel.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.i
-.PHONY : src/RobotModel.cc.i
+src/RobotModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i
+.PHONY : src/RobotModel.cpp.i
 
-src/RobotModel.s: src/RobotModel.cc.s
+src/RobotModel.s: src/RobotModel.cpp.s
 .PHONY : src/RobotModel.s
 
 # target to generate assembly for a file
-src/RobotModel.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cc.s
-.PHONY : src/RobotModel.cc.s
+src/RobotModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s
+.PHONY : src/RobotModel.cpp.s
 
 # Help Target
 help:
