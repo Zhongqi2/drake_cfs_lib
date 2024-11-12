@@ -59,3 +59,125 @@ gmake: *** [Makefile:127: cmTC_1907e/fast] Error 2
 
 
 
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e8052/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e8052.dir/build.make CMakeFiles/cmTC_e8052.dir/build
+gmake[1]: Entering directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8052.dir/src.c.o
+/home/zhongqi/miniconda3/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e8052.dir/src.c.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8052
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8052.dir/link.txt --verbose=1
+/home/zhongqi/miniconda3/bin/cc -rdynamic CMakeFiles/cmTC_e8052.dir/src.c.o -o cmTC_e8052 
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_e8052.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x6c): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e8052.dir/build.make:99: cmTC_e8052] Error 1
+gmake[1]: Leaving directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e8052/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_336e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_336e3.dir/build.make CMakeFiles/cmTC_336e3.dir/build
+gmake[1]: Entering directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_336e3.dir/CheckFunctionExists.c.o
+/home/zhongqi/miniconda3/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_336e3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_336e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_336e3.dir/link.txt --verbose=1
+/home/zhongqi/miniconda3/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_336e3.dir/CheckFunctionExists.c.o -o cmTC_336e3  -lpthreads 
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_336e3.dir/build.make:99: cmTC_336e3] Error 1
+gmake[1]: Leaving directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_336e3/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8bb9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8bb9b.dir/build.make CMakeFiles/cmTC_8bb9b.dir/build
+gmake[1]: Entering directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bb9b.dir/src.c.o
+/home/zhongqi/miniconda3/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8bb9b.dir/src.c.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8bb9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bb9b.dir/link.txt --verbose=1
+/home/zhongqi/miniconda3/bin/cc -rdynamic CMakeFiles/cmTC_8bb9b.dir/src.c.o -o cmTC_8bb9b 
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_8bb9b.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x6c): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8bb9b.dir/build.make:99: cmTC_8bb9b] Error 1
+gmake[1]: Leaving directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8bb9b/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7ad9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7ad9.dir/build.make CMakeFiles/cmTC_f7ad9.dir/build
+gmake[1]: Entering directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7ad9.dir/CheckFunctionExists.c.o
+/home/zhongqi/miniconda3/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_f7ad9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7ad9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7ad9.dir/link.txt --verbose=1
+/home/zhongqi/miniconda3/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_f7ad9.dir/CheckFunctionExists.c.o -o cmTC_f7ad9  -lpthreads 
+/home/zhongqi/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f7ad9.dir/build.make:99: cmTC_f7ad9] Error 1
+gmake[1]: Leaving directory '/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f7ad9/fast] Error 2
+
+
+

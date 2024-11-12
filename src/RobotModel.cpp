@@ -32,11 +32,7 @@ RobotModel::RobotModel(bool show_robot = false)
     {
         auto diagram_context = diagram->CreateDefaultContext();
         diagram->ForcedPublish(*diagram_context.get());
-        Slider->Run(*diagram);
-        while (1)
-        {
-            /* code */
-        }
+        // Slider->Run(*diagram);
     }
 
     cout << "RobotModel is being create" << endl;

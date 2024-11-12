@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "drake_cfs_lib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-drake_cfs_lib-Debug-d268cc439620d3dc22c8.json",
+					"jsonFile" : "target-drake_cfs_lib-Debug-3b60bede663839cda55d.json",
 					"name" : "drake_cfs_lib",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 7
 	}
 }

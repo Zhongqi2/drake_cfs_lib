@@ -11,11 +11,21 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"set_property",
+			"find_dependency",
+			"include"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"/opt/drake/lib/cmake/drake/drake-config.cmake",
+			"/home/zhongqi/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake",
+			"/home/zhongqi/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake"
 		],
 		"nodes" : 
 		[
@@ -33,6 +43,70 @@
 				"file" : 0,
 				"line" : 7,
 				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 76,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 238,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 51,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 66,
+				"parent" : 13
 			}
 		]
 	},
@@ -42,10 +116,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++20"
+					"fragment" : "-g -std=gnu++20"
 				}
 			],
 			"defines" : 
@@ -80,17 +151,17 @@
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/zhongqi/Documents/workspace/drake_env_1.28/include"
+					"path" : "/opt/drake/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/zhongqi/Documents/workspace/drake_env_1.28/include/drake_lcmtypes"
+					"path" : "/opt/drake/include/drake_lcmtypes"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/zhongqi/Documents/workspace/drake_env_1.28/include/lcm"
+					"path" : "/opt/drake/include/lcm"
 				},
 				{
 					"backtrace" : 2,
@@ -134,31 +205,36 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/zhongqi/Documents/workspace/drake_env_1.28/lib:/home/zhongqi/miniconda3/lib",
+				"fragment" : "-Wl,-rpath,/opt/drake/lib:/home/zhongqi/miniconda3/lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/home/zhongqi/Documents/workspace/drake_env_1.28/lib/libdrake.so",
+				"fragment" : "/opt/drake/lib/libdrake.so",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/home/zhongqi/Documents/workspace/drake_env_1.28/lib/libdrake_marker.so",
+				"backtrace" : 5,
+				"fragment" : "/opt/drake/lib/libdrake_marker.so",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/home/zhongqi/Documents/workspace/drake_env_1.28/lib/libdrake_lcm.so",
+				"backtrace" : 5,
+				"fragment" : "/opt/drake/lib/libdrake_lcm.so",
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 5,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2",
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 11,
 				"fragment" : "-lpthread",
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 14,
 				"fragment" : "/home/zhongqi/miniconda3/lib/libfmt.so.9.1.0",
 				"role" : "libraries"
 			}

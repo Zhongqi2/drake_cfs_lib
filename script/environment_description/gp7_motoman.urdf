@@ -25,11 +25,11 @@
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
             </material>
         </visual>
-        <collision>
+        <!-- <collision>
             <geometry>
                 <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp7/meshes/collision/gp7_link_1_s.obj"/>
             </geometry>
-        </collision>
+        </collision> -->
     </link>
     <link name="link_2_l">
         <visual>
@@ -40,11 +40,11 @@
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
             </material>
         </visual>
-        <collision>
+        <!-- <collision>
             <geometry>
                 <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp7/meshes/collision/gp7_link_2_l.obj"/>
             </geometry>
-        </collision>
+        </collision> -->
     </link>
     <link name="link_3_u">
         <visual>
@@ -55,11 +55,11 @@
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
             </material>
         </visual>
-        <collision>
+        <!-- <collision>
             <geometry>
                 <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp7/meshes/collision/gp7_link_3_u.obj"/>
             </geometry>
-        </collision>
+        </collision> -->
     </link>
     <link name="link_4_r">
         <visual>
@@ -70,11 +70,11 @@
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
             </material>
         </visual>
-        <collision>
+        <!-- <collision>
             <geometry>
                 <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp7/meshes/collision/gp7_link_4_r.obj"/>
             </geometry>
-        </collision>
+        </collision> -->
     </link>
     <link name="link_5_b">
         <visual>
@@ -85,11 +85,11 @@
                 <color rgba="0.129411765 0.149019608 0.749019608 1.0" />
             </material>
         </visual>
-        <collision>
+        <!-- <collision>
             <geometry>
                 <mesh filename="/home/zhongqi/Documents/workspace/drake_cfs_lib/script/environment_description/gp7/meshes/collision/gp7_link_5_b.obj"/>
             </geometry>
-        </collision>
+        </collision> -->
     </link>
     <link name="link_6_t">
         <visual>

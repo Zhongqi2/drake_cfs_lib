@@ -23,9 +23,9 @@ set(CMAKE_COMPILER_SYSROOT "/home/zhongqi/miniconda3/bin/../x86_64-conda-linux-g
 
 
 set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_C_COMPILER_AR "/home/zhongqi/miniconda3/bin/gcc-ar")
+set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-12")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/home/zhongqi/miniconda3/bin/gcc-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib-12")
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)

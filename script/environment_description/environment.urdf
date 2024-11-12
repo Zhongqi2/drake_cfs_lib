@@ -1,56 +1,39 @@
-<?xml version="1.0"?>
 <robot name="Floor">
     <link name="robot_base">
-        <visual name="CFSObstacle">
-            <origin rpy="0.000000 0.000000 -0.000000" xyz="0.000000 1.000000 0.80000" />
-            <!-- <geometry>
-                <box size="0.3000000 0.300000 0.300000" />
-            </geometry> -->
+        <visual name="ball1">
+            <origin rpy="1.57  1.57 1.57" xyz="1 2 3" />
             <geometry>
-                <sphere radius="0.3"/>
+                <sphere radius="0.3" />
             </geometry>
-            <!-- <geometry>
-                <mesh filename="/mnt/storage/layout-optimization/model/assets_cvx/environment/sphere.obj" />
-            </geometry> -->
             <material name="CFSObstacle_material">
                 <color rgba="0.000000 0.0 0.640000 1.0" />
             </material>
         </visual>
-        <collision name="CFSObstacle">
-            <origin rpy="0.000000 0.000000 -0.000000" xyz="0.000000 1.000000 0.80000" />
+        <collision name="ball1">
+            <origin rpy="1.57  1.57 1.57" xyz="1 2 3" />
             <geometry>
-                <sphere radius="0.3"/>
+                <sphere radius="0.3" />
                 <dissipation>1</dissipation>
             </geometry>
         </collision>
-        <visual name="CFSObstacle2">
-            <origin rpy="0.000000 0.000000 -0.000000" xyz="3.3 1.000000 0.80000" />
-            <!-- <geometry>
-                <box size="0.3000000 0.300000 0.300000" />
-            </geometry> -->
+
+
+        <visual name="ball2">
+            <origin rpy="3 4 5" xyz="1 1 1" />
             <geometry>
-                <sphere radius="0.3"/>
+                <sphere radius="0.3" />
             </geometry>
-            <!-- <geometry>
-                <mesh filename="/mnt/storage/layout-optimization/model/assets_cvx/environment/sphere.obj" />
-            </geometry> -->
             <material name="CFSObstacle_material">
                 <color rgba="0.000000 0.0 0.640000 1.0" />
             </material>
         </visual>
-        <collision name="CFSObstacle2">
-            <origin rpy="0.000000 0.000000 -0.000000" xyz="3.3 1.000000 0.80000" />
+        <collision name="ball2">
+            <origin rpy="3 4 5" xyz="1 1 1" />
             <geometry>
-                <sphere radius="0.3"/>
+                <sphere radius="0.3" />
                 <dissipation>1</dissipation>
             </geometry>
         </collision>
-        <!-- <collision name="Floor_1">
-            <origin rpy="1.57 3.141593 -3.141593" xyz="0.000000 0.000000 -0.100000" />
-            <geometry>
-                <box size="10.000000 10.000000 0.400000" />
-            </geometry>
-        </collision> -->
         <visual name="Floor_2">
             <origin rpy="1.57 3.141593 -3.141593" xyz="0.000000 0.000000 -0.100000" />
             <geometry>
@@ -96,5 +79,5 @@
                 <color rgba="1.000000 1.000000 1.000000 1.0" />
             </material>
         </visual>
-    </link>
+</link>
 </robot>

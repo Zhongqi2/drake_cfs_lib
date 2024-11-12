@@ -1,12 +1,14 @@
 [
 {
   "directory": "/home/zhongqi/Documents/workspace/drake_cfs_lib/build",
-  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DHAVE_SPDLOG -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include/drake_lcmtypes -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include/lcm -isystem /usr/include/eigen3 -isystem /home/zhongqi/miniconda3/include -g -std=gnu++20 -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp",
-  "file": "/home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp"
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DHAVE_SPDLOG -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -isystem /opt/drake/include -isystem /opt/drake/include/drake_lcmtypes -isystem /opt/drake/include/lcm -isystem /usr/include/eigen3 -isystem /home/zhongqi/miniconda3/include -g -std=gnu++20 -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp",
+  "file": "/home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp",
+  "output": "CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o"
 },
 {
   "directory": "/home/zhongqi/Documents/workspace/drake_cfs_lib/build",
-  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DHAVE_SPDLOG -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include/drake_lcmtypes -isystem /home/zhongqi/Documents/workspace/drake_env_1.28/include/lcm -isystem /usr/include/eigen3 -isystem /home/zhongqi/miniconda3/include -g -std=gnu++20 -o CMakeFiles/drake_cfs_lib.dir/main.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp",
-  "file": "/home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp"
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DHAVE_SPDLOG -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -isystem /opt/drake/include -isystem /opt/drake/include/drake_lcmtypes -isystem /opt/drake/include/lcm -isystem /usr/include/eigen3 -isystem /home/zhongqi/miniconda3/include -g -std=gnu++20 -o CMakeFiles/drake_cfs_lib.dir/main.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp",
+  "file": "/home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp",
+  "output": "CMakeFiles/drake_cfs_lib.dir/main.cpp.o"
 }
 ]
