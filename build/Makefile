@@ -57,10 +57,10 @@ RM = /home/zhongqi/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhongqi/Documents/workspace/drake_cfs_lib
+CMAKE_SOURCE_DIR = /home/zhongqi/Documents/workspace/trajectory_optimization_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhongqi/Documents/workspace/drake_cfs_lib/build
+CMAKE_BINARY_DIR = /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles /home/zhongqi/Documents/workspace/drake_cfs_lib/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named drake_cfs_lib
+# Target rules for targets named trajectory_optimization_lib
 
 # Build rule for target.
-drake_cfs_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drake_cfs_lib
-.PHONY : drake_cfs_lib
+trajectory_optimization_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trajectory_optimization_lib
+.PHONY : trajectory_optimization_lib
 
 # fast build rule for target.
-drake_cfs_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/build
-.PHONY : drake_cfs_lib/fast
+trajectory_optimization_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/build
+.PHONY : trajectory_optimization_lib/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,32 +150,56 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/RobotModel.o: src/RobotModel.cpp.o
-.PHONY : src/RobotModel.o
+src/KinematicTrajetcoryOptimization/KinematicTrajOpt.o: src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.o
+.PHONY : src/KinematicTrajetcoryOptimization/KinematicTrajOpt.o
 
 # target to build an object file
-src/RobotModel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o
-.PHONY : src/RobotModel.cpp.o
+src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.o
+.PHONY : src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.o
 
-src/RobotModel.i: src/RobotModel.cpp.i
-.PHONY : src/RobotModel.i
+src/KinematicTrajetcoryOptimization/KinematicTrajOpt.i: src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.i
+.PHONY : src/KinematicTrajetcoryOptimization/KinematicTrajOpt.i
 
 # target to preprocess a source file
-src/RobotModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i
-.PHONY : src/RobotModel.cpp.i
+src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.i
+.PHONY : src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.i
 
-src/RobotModel.s: src/RobotModel.cpp.s
-.PHONY : src/RobotModel.s
+src/KinematicTrajetcoryOptimization/KinematicTrajOpt.s: src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.s
+.PHONY : src/KinematicTrajetcoryOptimization/KinematicTrajOpt.s
 
 # target to generate assembly for a file
-src/RobotModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s
-.PHONY : src/RobotModel.cpp.s
+src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.s
+.PHONY : src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.s
+
+src/RobotVisualizer/RobotVisualizer.o: src/RobotVisualizer/RobotVisualizer.cpp.o
+.PHONY : src/RobotVisualizer/RobotVisualizer.o
+
+# target to build an object file
+src/RobotVisualizer/RobotVisualizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/src/RobotVisualizer/RobotVisualizer.cpp.o
+.PHONY : src/RobotVisualizer/RobotVisualizer.cpp.o
+
+src/RobotVisualizer/RobotVisualizer.i: src/RobotVisualizer/RobotVisualizer.cpp.i
+.PHONY : src/RobotVisualizer/RobotVisualizer.i
+
+# target to preprocess a source file
+src/RobotVisualizer/RobotVisualizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/src/RobotVisualizer/RobotVisualizer.cpp.i
+.PHONY : src/RobotVisualizer/RobotVisualizer.cpp.i
+
+src/RobotVisualizer/RobotVisualizer.s: src/RobotVisualizer/RobotVisualizer.cpp.s
+.PHONY : src/RobotVisualizer/RobotVisualizer.s
+
+# target to generate assembly for a file
+src/RobotVisualizer/RobotVisualizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/src/RobotVisualizer/RobotVisualizer.cpp.s
+.PHONY : src/RobotVisualizer/RobotVisualizer.cpp.s
 
 # Help Target
 help:
@@ -185,13 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... drake_cfs_lib"
+	@echo "... trajectory_optimization_lib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/RobotModel.o"
-	@echo "... src/RobotModel.i"
-	@echo "... src/RobotModel.s"
+	@echo "... src/KinematicTrajetcoryOptimization/KinematicTrajOpt.o"
+	@echo "... src/KinematicTrajetcoryOptimization/KinematicTrajOpt.i"
+	@echo "... src/KinematicTrajetcoryOptimization/KinematicTrajOpt.s"
+	@echo "... src/RobotVisualizer/RobotVisualizer.o"
+	@echo "... src/RobotVisualizer/RobotVisualizer.i"
+	@echo "... src/RobotVisualizer/RobotVisualizer.s"
 .PHONY : help
 
 

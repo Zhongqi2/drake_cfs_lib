@@ -2,7 +2,7 @@ directives:
 # add environment
 - add_model:
     name: environment
-    file: package://drake_project/script/environment_description/environment.urdf
+    file: package://project/script/environment_description/environment.urdf
 - add_weld:
     parent: world
     child: environment::robot_base
@@ -10,13 +10,13 @@ directives:
 # add gp7
 - add_model:
     name: gp7
-    file: package://drake_project/script/environment_description/gp7_motoman.urdf
+    file: package://project/script/environment_description/GEN3_URDF_V12.urdf
 
 - add_frame:
     name: gp7_origin
     X_PF:
       base_frame: world
-      translation: [3.26323, 0.385807, 0.922866]
+      translation: [0,0,0]
 
 - add_weld:
     parent: gp7_origin

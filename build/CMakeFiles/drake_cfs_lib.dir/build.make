@@ -53,10 +53,10 @@ RM = /home/zhongqi/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhongqi/Documents/workspace/drake_cfs_lib
+CMAKE_SOURCE_DIR = /home/zhongqi/Documents/workspace/trajectory_optimization_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhongqi/Documents/workspace/drake_cfs_lib/build
+CMAKE_BINARY_DIR = /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/drake_cfs_lib.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/drake_cfs_lib.dir/progress.make
 include CMakeFiles/drake_cfs_lib.dir/flags.make
 
 CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: CMakeFiles/drake_cfs_lib.dir/flags.make
-CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp
+CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: /home/zhongqi/Documents/workspace/trajectory_optimization_lib/src/RobotModel.cpp
 CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: CMakeFiles/drake_cfs_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -MF CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o.d -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -MF CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o.d -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o -c /home/zhongqi/Documents/workspace/trajectory_optimization_lib/src/RobotModel.cpp
 
 CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp > CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/trajectory_optimization_lib/src/RobotModel.cpp > CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.i
 
 CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/trajectory_optimization_lib/src/RobotModel.cpp -o CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.s
 
 CMakeFiles/drake_cfs_lib.dir/main.cpp.o: CMakeFiles/drake_cfs_lib.dir/flags.make
-CMakeFiles/drake_cfs_lib.dir/main.cpp.o: /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp
+CMakeFiles/drake_cfs_lib.dir/main.cpp.o: /home/zhongqi/Documents/workspace/trajectory_optimization_lib/main.cpp
 CMakeFiles/drake_cfs_lib.dir/main.cpp.o: CMakeFiles/drake_cfs_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drake_cfs_lib.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/main.cpp.o -MF CMakeFiles/drake_cfs_lib.dir/main.cpp.o.d -o CMakeFiles/drake_cfs_lib.dir/main.cpp.o -c /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drake_cfs_lib.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drake_cfs_lib.dir/main.cpp.o -MF CMakeFiles/drake_cfs_lib.dir/main.cpp.o.d -o CMakeFiles/drake_cfs_lib.dir/main.cpp.o -c /home/zhongqi/Documents/workspace/trajectory_optimization_lib/main.cpp
 
 CMakeFiles/drake_cfs_lib.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/drake_cfs_lib.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp > CMakeFiles/drake_cfs_lib.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongqi/Documents/workspace/trajectory_optimization_lib/main.cpp > CMakeFiles/drake_cfs_lib.dir/main.cpp.i
 
 CMakeFiles/drake_cfs_lib.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/drake_cfs_lib.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp -o CMakeFiles/drake_cfs_lib.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongqi/Documents/workspace/trajectory_optimization_lib/main.cpp -o CMakeFiles/drake_cfs_lib.dir/main.cpp.s
 
 # Object files for target drake_cfs_lib
 drake_cfs_lib_OBJECTS = \
@@ -114,7 +114,7 @@ drake_cfs_lib: /opt/drake/lib/libdrake_lcm.so
 drake_cfs_lib: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
 drake_cfs_lib: /home/zhongqi/miniconda3/lib/libfmt.so.9.1.0
 drake_cfs_lib: CMakeFiles/drake_cfs_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable drake_cfs_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable drake_cfs_lib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drake_cfs_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +126,6 @@ CMakeFiles/drake_cfs_lib.dir/clean:
 .PHONY : CMakeFiles/drake_cfs_lib.dir/clean
 
 CMakeFiles/drake_cfs_lib.dir/depend:
-	cd /home/zhongqi/Documents/workspace/drake_cfs_lib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhongqi/Documents/workspace/drake_cfs_lib /home/zhongqi/Documents/workspace/drake_cfs_lib /home/zhongqi/Documents/workspace/drake_cfs_lib/build /home/zhongqi/Documents/workspace/drake_cfs_lib/build /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles/drake_cfs_lib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhongqi/Documents/workspace/trajectory_optimization_lib /home/zhongqi/Documents/workspace/trajectory_optimization_lib /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles/drake_cfs_lib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/drake_cfs_lib.dir/depend
 

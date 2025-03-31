@@ -54,16 +54,16 @@ RM = /home/zhongqi/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhongqi/Documents/workspace/drake_cfs_lib
+CMAKE_SOURCE_DIR = /home/zhongqi/Documents/workspace/trajectory_optimization_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhongqi/Documents/workspace/drake_cfs_lib/build
+CMAKE_BINARY_DIR = /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/drake_cfs_lib.dir/all
+all: CMakeFiles/trajectory_optimization_lib.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/drake_cfs_lib.dir/clean
+clean: CMakeFiles/trajectory_optimization_lib.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/drake_cfs_lib.dir
+# Target rules for target CMakeFiles/trajectory_optimization_lib.dir
 
 # All Build rule for target.
-CMakeFiles/drake_cfs_lib.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles --progress-num=1,2,3 "Built target drake_cfs_lib"
-.PHONY : CMakeFiles/drake_cfs_lib.dir/all
+CMakeFiles/trajectory_optimization_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles --progress-num=1,2,3,4 "Built target trajectory_optimization_lib"
+.PHONY : CMakeFiles/trajectory_optimization_lib.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/drake_cfs_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/drake_cfs_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/drake_cfs_lib/build/CMakeFiles 0
-.PHONY : CMakeFiles/drake_cfs_lib.dir/rule
+CMakeFiles/trajectory_optimization_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/trajectory_optimization_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles 0
+.PHONY : CMakeFiles/trajectory_optimization_lib.dir/rule
 
 # Convenience name for target.
-drake_cfs_lib: CMakeFiles/drake_cfs_lib.dir/rule
-.PHONY : drake_cfs_lib
+trajectory_optimization_lib: CMakeFiles/trajectory_optimization_lib.dir/rule
+.PHONY : trajectory_optimization_lib
 
 # clean rule for target.
-CMakeFiles/drake_cfs_lib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drake_cfs_lib.dir/build.make CMakeFiles/drake_cfs_lib.dir/clean
-.PHONY : CMakeFiles/drake_cfs_lib.dir/clean
+CMakeFiles/trajectory_optimization_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/clean
+.PHONY : CMakeFiles/trajectory_optimization_lib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

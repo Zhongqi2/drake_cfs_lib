@@ -1,7 +1,7 @@
 CMakeFiles/drake_cfs_lib.dir/main.cpp.o: \
- /home/zhongqi/Documents/workspace/drake_cfs_lib/main.cpp \
+ /home/zhongqi/Documents/workspace/trajectory_optimization_lib/main.cpp \
  /usr/include/stdc-predef.h \
- /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.h \
+ /home/zhongqi/Documents/workspace/trajectory_optimization_lib/src/RobotModel.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

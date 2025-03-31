@@ -1,5 +1,5 @@
 CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: \
- /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.cpp \
+ /home/zhongqi/Documents/workspace/trajectory_optimization_lib/src/RobotModel.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -180,7 +180,7 @@ CMakeFiles/drake_cfs_lib.dir/src/RobotModel.cpp.o: \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/zhongqi/Documents/workspace/drake_cfs_lib/src/RobotModel.h \
+ /home/zhongqi/Documents/workspace/trajectory_optimization_lib/src/RobotModel.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/math.h \
  /opt/drake/include/drake/common/drake_assert.h \
  /opt/drake/include/drake/systems/analysis/simulator.h \
