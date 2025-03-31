@@ -48,4 +48,4 @@ git clone https://github.com/RobotLocomotion/drake-external-examples.git
 cd drake-external-examples
 mkdir drake_cmake_installed-build && cd drake_cmake_installed-build
 cmake -DCMAKE_PREFIX_PATH=$HOME/drake ../drake_cmake_installed
-make
+make# trajectory_optimization_lib
