@@ -11,7 +11,7 @@ RobotVisualizer::RobotVisualizer(const std::string model_url)
     drake::multibody::Parser parser(plant);
 
     // add robot environment
-    parser.package_map().Add("project", "../../trajectory_optimization_lib");  
+    parser.package_map().Add("project", "../../drake_cfs_lib");  
     parser.AddModelsFromUrl(model_url);
     plant->Finalize();
 

@@ -11,7 +11,7 @@ KinematicTrajOpt::KinematicTrajOpt(const std::string model_url)
     drake::multibody::Parser parser(plant);
 
     // add robot environment
-    parser.package_map().Add("project", "../../trajectory_optimization_lib");  
+    parser.package_map().Add("project", "../../drake_cfs_lib");  
     parser.AddModelsFromUrl(model_url);
     plant->Finalize();
     diagram = builder.Build();
@@ -135,8 +135,8 @@ SDF KinematicTrajOpt::cal_minSDF_and_gradient(const Eigen::VectorXd& joint_posit
     }
 
     // get sign distance info
-    Eigen::Vector3<double> p_ACa;
-    Eigen::Vector3<double> nhat_BA_W;
+    Eigen::Vector3d p_ACa;
+    Eigen::Vector3d nhat_BA_W;
     p_ACa = min_signed_distance_pair.p_ACa;
     nhat_BA_W = min_signed_distance_pair.nhat_BA_W;
 
