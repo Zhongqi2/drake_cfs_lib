@@ -1,3 +1,6 @@
 /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles/trajectory_optimization_lib.dir
+/home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles/motion_planner.dir
+/home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles/planner_ui.dir
+/home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles/planner_benchmark.dir
 /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles/edit_cache.dir
 /home/zhongqi/Documents/workspace/trajectory_optimization_lib/build/CMakeFiles/rebuild_cache.dir

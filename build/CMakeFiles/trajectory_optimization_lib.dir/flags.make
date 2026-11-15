@@ -6,5 +6,5 @@ CXX_DEFINES = -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DHAVE_SPDLOG -DSPDLOG_COMPILED_L
 
 CXX_INCLUDES = -I/home/zhongqi/Documents/workspace/trajectory_optimization_lib/include/KinematicTrajetcoryOptimization -I/home/zhongqi/Documents/workspace/trajectory_optimization_lib/include/RobotVisualizer -isystem /opt/drake/include -isystem /opt/drake/include/drake_lcmtypes -isystem /opt/drake/include/lcm -isystem /usr/include/eigen3 -isystem /home/zhongqi/miniconda3/include
 
-CXX_FLAGS = -std=c++20 -fPIE
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -fPIE
 

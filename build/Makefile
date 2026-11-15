@@ -129,6 +129,93 @@ trajectory_optimization_lib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/build
 .PHONY : trajectory_optimization_lib/fast
 
+#=============================================================================
+# Target rules for targets named motion_planner
+
+# Build rule for target.
+motion_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motion_planner
+.PHONY : motion_planner
+
+# fast build rule for target.
+motion_planner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/build
+.PHONY : motion_planner/fast
+
+#=============================================================================
+# Target rules for targets named planner_ui
+
+# Build rule for target.
+planner_ui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planner_ui
+.PHONY : planner_ui
+
+# fast build rule for target.
+planner_ui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_ui.dir/build.make CMakeFiles/planner_ui.dir/build
+.PHONY : planner_ui/fast
+
+#=============================================================================
+# Target rules for targets named planner_benchmark
+
+# Build rule for target.
+planner_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planner_benchmark
+.PHONY : planner_benchmark
+
+# fast build rule for target.
+planner_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_benchmark.dir/build.make CMakeFiles/planner_benchmark.dir/build
+.PHONY : planner_benchmark/fast
+
+apps/planner_benchmark.o: apps/planner_benchmark.cpp.o
+.PHONY : apps/planner_benchmark.o
+
+# target to build an object file
+apps/planner_benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_benchmark.dir/build.make CMakeFiles/planner_benchmark.dir/apps/planner_benchmark.cpp.o
+.PHONY : apps/planner_benchmark.cpp.o
+
+apps/planner_benchmark.i: apps/planner_benchmark.cpp.i
+.PHONY : apps/planner_benchmark.i
+
+# target to preprocess a source file
+apps/planner_benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_benchmark.dir/build.make CMakeFiles/planner_benchmark.dir/apps/planner_benchmark.cpp.i
+.PHONY : apps/planner_benchmark.cpp.i
+
+apps/planner_benchmark.s: apps/planner_benchmark.cpp.s
+.PHONY : apps/planner_benchmark.s
+
+# target to generate assembly for a file
+apps/planner_benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_benchmark.dir/build.make CMakeFiles/planner_benchmark.dir/apps/planner_benchmark.cpp.s
+.PHONY : apps/planner_benchmark.cpp.s
+
+apps/planner_ui.o: apps/planner_ui.cpp.o
+.PHONY : apps/planner_ui.o
+
+# target to build an object file
+apps/planner_ui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_ui.dir/build.make CMakeFiles/planner_ui.dir/apps/planner_ui.cpp.o
+.PHONY : apps/planner_ui.cpp.o
+
+apps/planner_ui.i: apps/planner_ui.cpp.i
+.PHONY : apps/planner_ui.i
+
+# target to preprocess a source file
+apps/planner_ui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_ui.dir/build.make CMakeFiles/planner_ui.dir/apps/planner_ui.cpp.i
+.PHONY : apps/planner_ui.cpp.i
+
+apps/planner_ui.s: apps/planner_ui.cpp.s
+.PHONY : apps/planner_ui.s
+
+# target to generate assembly for a file
+apps/planner_ui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planner_ui.dir/build.make CMakeFiles/planner_ui.dir/apps/planner_ui.cpp.s
+.PHONY : apps/planner_ui.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -177,6 +264,198 @@ src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_optimization_lib.dir/build.make CMakeFiles/trajectory_optimization_lib.dir/src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.s
 .PHONY : src/KinematicTrajetcoryOptimization/KinematicTrajOpt.cpp.s
 
+src/MotionPlanner/BezierPlanner.o: src/MotionPlanner/BezierPlanner.cpp.o
+.PHONY : src/MotionPlanner/BezierPlanner.o
+
+# target to build an object file
+src/MotionPlanner/BezierPlanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/BezierPlanner.cpp.o
+.PHONY : src/MotionPlanner/BezierPlanner.cpp.o
+
+src/MotionPlanner/BezierPlanner.i: src/MotionPlanner/BezierPlanner.cpp.i
+.PHONY : src/MotionPlanner/BezierPlanner.i
+
+# target to preprocess a source file
+src/MotionPlanner/BezierPlanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/BezierPlanner.cpp.i
+.PHONY : src/MotionPlanner/BezierPlanner.cpp.i
+
+src/MotionPlanner/BezierPlanner.s: src/MotionPlanner/BezierPlanner.cpp.s
+.PHONY : src/MotionPlanner/BezierPlanner.s
+
+# target to generate assembly for a file
+src/MotionPlanner/BezierPlanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/BezierPlanner.cpp.s
+.PHONY : src/MotionPlanner/BezierPlanner.cpp.s
+
+src/MotionPlanner/MotionPlanner.o: src/MotionPlanner/MotionPlanner.cpp.o
+.PHONY : src/MotionPlanner/MotionPlanner.o
+
+# target to build an object file
+src/MotionPlanner/MotionPlanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/MotionPlanner.cpp.o
+.PHONY : src/MotionPlanner/MotionPlanner.cpp.o
+
+src/MotionPlanner/MotionPlanner.i: src/MotionPlanner/MotionPlanner.cpp.i
+.PHONY : src/MotionPlanner/MotionPlanner.i
+
+# target to preprocess a source file
+src/MotionPlanner/MotionPlanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/MotionPlanner.cpp.i
+.PHONY : src/MotionPlanner/MotionPlanner.cpp.i
+
+src/MotionPlanner/MotionPlanner.s: src/MotionPlanner/MotionPlanner.cpp.s
+.PHONY : src/MotionPlanner/MotionPlanner.s
+
+# target to generate assembly for a file
+src/MotionPlanner/MotionPlanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/MotionPlanner.cpp.s
+.PHONY : src/MotionPlanner/MotionPlanner.cpp.s
+
+src/MotionPlanner/PlannerUI.o: src/MotionPlanner/PlannerUI.cpp.o
+.PHONY : src/MotionPlanner/PlannerUI.o
+
+# target to build an object file
+src/MotionPlanner/PlannerUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/PlannerUI.cpp.o
+.PHONY : src/MotionPlanner/PlannerUI.cpp.o
+
+src/MotionPlanner/PlannerUI.i: src/MotionPlanner/PlannerUI.cpp.i
+.PHONY : src/MotionPlanner/PlannerUI.i
+
+# target to preprocess a source file
+src/MotionPlanner/PlannerUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/PlannerUI.cpp.i
+.PHONY : src/MotionPlanner/PlannerUI.cpp.i
+
+src/MotionPlanner/PlannerUI.s: src/MotionPlanner/PlannerUI.cpp.s
+.PHONY : src/MotionPlanner/PlannerUI.s
+
+# target to generate assembly for a file
+src/MotionPlanner/PlannerUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/PlannerUI.cpp.s
+.PHONY : src/MotionPlanner/PlannerUI.cpp.s
+
+src/MotionPlanner/PlanningScene.o: src/MotionPlanner/PlanningScene.cpp.o
+.PHONY : src/MotionPlanner/PlanningScene.o
+
+# target to build an object file
+src/MotionPlanner/PlanningScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/PlanningScene.cpp.o
+.PHONY : src/MotionPlanner/PlanningScene.cpp.o
+
+src/MotionPlanner/PlanningScene.i: src/MotionPlanner/PlanningScene.cpp.i
+.PHONY : src/MotionPlanner/PlanningScene.i
+
+# target to preprocess a source file
+src/MotionPlanner/PlanningScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/PlanningScene.cpp.i
+.PHONY : src/MotionPlanner/PlanningScene.cpp.i
+
+src/MotionPlanner/PlanningScene.s: src/MotionPlanner/PlanningScene.cpp.s
+.PHONY : src/MotionPlanner/PlanningScene.s
+
+# target to generate assembly for a file
+src/MotionPlanner/PlanningScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/PlanningScene.cpp.s
+.PHONY : src/MotionPlanner/PlanningScene.cpp.s
+
+src/MotionPlanner/RRTConnectPlanner.o: src/MotionPlanner/RRTConnectPlanner.cpp.o
+.PHONY : src/MotionPlanner/RRTConnectPlanner.o
+
+# target to build an object file
+src/MotionPlanner/RRTConnectPlanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/RRTConnectPlanner.cpp.o
+.PHONY : src/MotionPlanner/RRTConnectPlanner.cpp.o
+
+src/MotionPlanner/RRTConnectPlanner.i: src/MotionPlanner/RRTConnectPlanner.cpp.i
+.PHONY : src/MotionPlanner/RRTConnectPlanner.i
+
+# target to preprocess a source file
+src/MotionPlanner/RRTConnectPlanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/RRTConnectPlanner.cpp.i
+.PHONY : src/MotionPlanner/RRTConnectPlanner.cpp.i
+
+src/MotionPlanner/RRTConnectPlanner.s: src/MotionPlanner/RRTConnectPlanner.cpp.s
+.PHONY : src/MotionPlanner/RRTConnectPlanner.s
+
+# target to generate assembly for a file
+src/MotionPlanner/RRTConnectPlanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/RRTConnectPlanner.cpp.s
+.PHONY : src/MotionPlanner/RRTConnectPlanner.cpp.s
+
+src/MotionPlanner/SimplePlanners.o: src/MotionPlanner/SimplePlanners.cpp.o
+.PHONY : src/MotionPlanner/SimplePlanners.o
+
+# target to build an object file
+src/MotionPlanner/SimplePlanners.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/SimplePlanners.cpp.o
+.PHONY : src/MotionPlanner/SimplePlanners.cpp.o
+
+src/MotionPlanner/SimplePlanners.i: src/MotionPlanner/SimplePlanners.cpp.i
+.PHONY : src/MotionPlanner/SimplePlanners.i
+
+# target to preprocess a source file
+src/MotionPlanner/SimplePlanners.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/SimplePlanners.cpp.i
+.PHONY : src/MotionPlanner/SimplePlanners.cpp.i
+
+src/MotionPlanner/SimplePlanners.s: src/MotionPlanner/SimplePlanners.cpp.s
+.PHONY : src/MotionPlanner/SimplePlanners.s
+
+# target to generate assembly for a file
+src/MotionPlanner/SimplePlanners.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/SimplePlanners.cpp.s
+.PHONY : src/MotionPlanner/SimplePlanners.cpp.s
+
+src/MotionPlanner/TrajOptPlanner.o: src/MotionPlanner/TrajOptPlanner.cpp.o
+.PHONY : src/MotionPlanner/TrajOptPlanner.o
+
+# target to build an object file
+src/MotionPlanner/TrajOptPlanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/TrajOptPlanner.cpp.o
+.PHONY : src/MotionPlanner/TrajOptPlanner.cpp.o
+
+src/MotionPlanner/TrajOptPlanner.i: src/MotionPlanner/TrajOptPlanner.cpp.i
+.PHONY : src/MotionPlanner/TrajOptPlanner.i
+
+# target to preprocess a source file
+src/MotionPlanner/TrajOptPlanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/TrajOptPlanner.cpp.i
+.PHONY : src/MotionPlanner/TrajOptPlanner.cpp.i
+
+src/MotionPlanner/TrajOptPlanner.s: src/MotionPlanner/TrajOptPlanner.cpp.s
+.PHONY : src/MotionPlanner/TrajOptPlanner.s
+
+# target to generate assembly for a file
+src/MotionPlanner/TrajOptPlanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/TrajOptPlanner.cpp.s
+.PHONY : src/MotionPlanner/TrajOptPlanner.cpp.s
+
+src/MotionPlanner/TrajectoryUtils.o: src/MotionPlanner/TrajectoryUtils.cpp.o
+.PHONY : src/MotionPlanner/TrajectoryUtils.o
+
+# target to build an object file
+src/MotionPlanner/TrajectoryUtils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/TrajectoryUtils.cpp.o
+.PHONY : src/MotionPlanner/TrajectoryUtils.cpp.o
+
+src/MotionPlanner/TrajectoryUtils.i: src/MotionPlanner/TrajectoryUtils.cpp.i
+.PHONY : src/MotionPlanner/TrajectoryUtils.i
+
+# target to preprocess a source file
+src/MotionPlanner/TrajectoryUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/TrajectoryUtils.cpp.i
+.PHONY : src/MotionPlanner/TrajectoryUtils.cpp.i
+
+src/MotionPlanner/TrajectoryUtils.s: src/MotionPlanner/TrajectoryUtils.cpp.s
+.PHONY : src/MotionPlanner/TrajectoryUtils.s
+
+# target to generate assembly for a file
+src/MotionPlanner/TrajectoryUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_planner.dir/build.make CMakeFiles/motion_planner.dir/src/MotionPlanner/TrajectoryUtils.cpp.s
+.PHONY : src/MotionPlanner/TrajectoryUtils.cpp.s
+
 src/RobotVisualizer/RobotVisualizer.o: src/RobotVisualizer/RobotVisualizer.cpp.o
 .PHONY : src/RobotVisualizer/RobotVisualizer.o
 
@@ -209,13 +488,46 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... motion_planner"
+	@echo "... planner_benchmark"
+	@echo "... planner_ui"
 	@echo "... trajectory_optimization_lib"
+	@echo "... apps/planner_benchmark.o"
+	@echo "... apps/planner_benchmark.i"
+	@echo "... apps/planner_benchmark.s"
+	@echo "... apps/planner_ui.o"
+	@echo "... apps/planner_ui.i"
+	@echo "... apps/planner_ui.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... src/KinematicTrajetcoryOptimization/KinematicTrajOpt.o"
 	@echo "... src/KinematicTrajetcoryOptimization/KinematicTrajOpt.i"
 	@echo "... src/KinematicTrajetcoryOptimization/KinematicTrajOpt.s"
+	@echo "... src/MotionPlanner/BezierPlanner.o"
+	@echo "... src/MotionPlanner/BezierPlanner.i"
+	@echo "... src/MotionPlanner/BezierPlanner.s"
+	@echo "... src/MotionPlanner/MotionPlanner.o"
+	@echo "... src/MotionPlanner/MotionPlanner.i"
+	@echo "... src/MotionPlanner/MotionPlanner.s"
+	@echo "... src/MotionPlanner/PlannerUI.o"
+	@echo "... src/MotionPlanner/PlannerUI.i"
+	@echo "... src/MotionPlanner/PlannerUI.s"
+	@echo "... src/MotionPlanner/PlanningScene.o"
+	@echo "... src/MotionPlanner/PlanningScene.i"
+	@echo "... src/MotionPlanner/PlanningScene.s"
+	@echo "... src/MotionPlanner/RRTConnectPlanner.o"
+	@echo "... src/MotionPlanner/RRTConnectPlanner.i"
+	@echo "... src/MotionPlanner/RRTConnectPlanner.s"
+	@echo "... src/MotionPlanner/SimplePlanners.o"
+	@echo "... src/MotionPlanner/SimplePlanners.i"
+	@echo "... src/MotionPlanner/SimplePlanners.s"
+	@echo "... src/MotionPlanner/TrajOptPlanner.o"
+	@echo "... src/MotionPlanner/TrajOptPlanner.i"
+	@echo "... src/MotionPlanner/TrajOptPlanner.s"
+	@echo "... src/MotionPlanner/TrajectoryUtils.o"
+	@echo "... src/MotionPlanner/TrajectoryUtils.i"
+	@echo "... src/MotionPlanner/TrajectoryUtils.s"
 	@echo "... src/RobotVisualizer/RobotVisualizer.o"
 	@echo "... src/RobotVisualizer/RobotVisualizer.i"
 	@echo "... src/RobotVisualizer/RobotVisualizer.s"

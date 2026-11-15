@@ -1,0 +1,22 @@
+# Scene for the motion-planner demo: robot_environment.dmd.yaml + obstacles.
+directives:
+- add_model:
+    name: environment
+    file: package://project/script/environment_description/environment.urdf
+- add_weld:
+    parent: world
+    child: environment::robot_base
+
+- add_model:
+    name: obstacles
+    file: package://project/script/environment_description/planner_obstacles.urdf
+- add_weld:
+    parent: world
+    child: obstacles::obstacles
+
+- add_model:
+    name: gp7
+    file: package://project/script/environment_description/GEN3_URDF_V12.urdf
+- add_weld:
+    parent: world
+    child: gp7::base_link

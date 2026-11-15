@@ -22,7 +22,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -235,6 +235,9 @@ fmt_DIR:PATH=/home/zhongqi/miniconda3/lib/cmake/fmt
 
 //The directory containing a CMake configuration file for lcm.
 lcm_DIR:PATH=/opt/drake/lib/cmake/lcm
+
+//Dependencies for the target
+motion_planner_LIB_DEPENDS:STATIC=general;drake::drake;
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog

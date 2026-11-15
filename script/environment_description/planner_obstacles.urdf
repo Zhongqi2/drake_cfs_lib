@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Extra obstacles for the motion-planner demo (welded to world). -->
+<robot name="planner_obstacles">
+  <material name="obstacle_color"><color rgba="0.85 0.45 0.2 0.9"/></material>
+  <link name="obstacles">
+    <!-- Two pillars and a crossbar forming a gate in front of the robot. -->
+    <visual><origin xyz="0.45 0.3 0.4"/><geometry><box size="0.08 0.08 0.8"/></geometry><material name="obstacle_color"/></visual>
+    <collision><origin xyz="0.45 0.3 0.4"/><geometry><box size="0.08 0.08 0.8"/></geometry></collision>
+    <visual><origin xyz="0.45 -0.3 0.4"/><geometry><box size="0.08 0.08 0.8"/></geometry><material name="obstacle_color"/></visual>
+    <collision><origin xyz="0.45 -0.3 0.4"/><geometry><box size="0.08 0.08 0.8"/></geometry></collision>
+    <visual><origin xyz="0.45 0 0.84"/><geometry><box size="0.08 0.68 0.08"/></geometry><material name="obstacle_color"/></visual>
+    <collision><origin xyz="0.45 0 0.84"/><geometry><box size="0.08 0.68 0.08"/></geometry></collision>
+    <!-- A block on the robot's left-rear side. -->
+    <visual><origin xyz="-0.4 0.4 0.2"/><geometry><box size="0.3 0.3 0.3"/></geometry><material name="obstacle_color"/></visual>
+    <collision><origin xyz="-0.4 0.4 0.2"/><geometry><box size="0.3 0.3 0.3"/></geometry></collision>
+  </link>
+</robot>
